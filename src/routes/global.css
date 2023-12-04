@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s;
+}
+a:hover {
+  color: #9f0013;
+}
+ol,
+ul {
+  padding: 0;
+}
+span,
+.activeStyle {
+  color: #9f0013;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+  }
+}
